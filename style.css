@@ -1,0 +1,23 @@
+.header {
+    overflow: hidden;
+    font-size: 24px;
+}
+
+.header a {
+    float: left;
+    color: maroon;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: black;
+}
+
+.header a.active {
+    background-color: rgb(199, 164, 166);
+    color: white;
+}
+/* I left off on this link https://www.w3schools.com/howto/howto_js_topnav.asp
+/* and I am on step 3
