@@ -2,6 +2,7 @@
     text-align: center;
     overflow: hidden;
     font-size: 30px;
+    font-family: oto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .header a {
@@ -9,15 +10,33 @@
     color: maroon;
     padding: 14px 16px;
     text-decoration: none;
+    
 }
 
 .header a:hover {
     color: black;
 }
 
-.header a.active {
-    background-color: rgb(199, 164, 166);
-    color: white;
+.footer {
+    text-align: center;
+    overflow: hidden;
+    font-size: 30px;
+    font-family: oto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-/* I left off on this link https://www.w3schools.com/howto/howto_js_topnav.asp
-/* and I am on step 3
+
+.footer a {
+    float: left;
+    color: maroon;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a:hover {
+    color: black;
+
+/* I am at this website https://designmodo.com/css-grid/ 
+/* ctrl-f "The other property is grid-template-rows."
