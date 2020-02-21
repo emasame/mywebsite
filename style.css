@@ -1,12 +1,12 @@
 .header {
+    text-align: center;
     overflow: hidden;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .header a {
     float: left;
     color: maroon;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
